@@ -1,6 +1,13 @@
 # Dragon Nest Pak sizer
 
-Предназначен для увелечения размера файла  *.pak до 530 Мб
+Designed to increase the size of the * .pak file to 530 MB
+
+# Compile
+```
+gcc pak_sizer.c -o pak_sizer.exe 
+Or
+mingw32-make -f Makefile
+```
 
 # Usage
 ```
